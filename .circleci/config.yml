@@ -3,7 +3,8 @@ jobs:
   build:
     docker:
       - image: ubuntu:latest
-    steps: ["checkout"]
+    steps:
+      - run: echo $FOO
 workflows:
   version: 2
   workflow:
