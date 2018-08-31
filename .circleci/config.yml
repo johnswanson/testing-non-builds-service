@@ -4,7 +4,7 @@ jobs:
     docker:
       - image: ubuntu:latest
     steps:
-      - run: echo $FOO
+      - run: echo "$FOO"
 workflows:
   version: 2
   workflow:
